@@ -35,6 +35,9 @@ jobs:
         run: yarn install
       - name: Install Firebase Tools
         run: npm install -g firebase-tools
+      - name: Setting Artifact Cleanup Policy
+        working-directory: ./api/functions
+        run: firebase functions:artifacts:setpolicy --force --token "${{ secrets.FIREBASE_SECRET }}"
       - name: Deploying to Firebase
         working-directory: ./api/functions
         run: firebase deploy --token "${{ secrets.FIREBASE_SECRET }}"
