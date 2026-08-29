@@ -76,7 +76,7 @@ const App = () => {
         <Logo src={logo} alt="Open Dog Registry Logo" />
         <Header>Open Dog Registry</Header>
         <Subheader>A free and open-source API for dog breeds</Subheader>
-        <CodeSnippet code="https://registry.dog/api/v1" />
+        <CodeSnippet code="https://v1-3k26ucvzka-uc.a.run.app" />
         <Buttons>
           <Button href={DOCS} primary>
             View Docs
