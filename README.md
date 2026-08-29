@@ -28,7 +28,7 @@ We do ask though that if you use the API, to please:
 
 ## API Docs
 
-The endpoint of the API is `https://registry.dog/api/v1`.
+The endpoint of the API is `https://v1-3k26ucvzka-uc.a.run.app`.
 
 The response is in the following format:
 
